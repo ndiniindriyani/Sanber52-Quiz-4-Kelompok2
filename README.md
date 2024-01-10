@@ -3,10 +3,6 @@
 Pembagian Tugas Quiz 4 - Kelompok 2
 
 
-Nurul Dini Indriyani (ndiniindriyani) : 
+Nurul Dini Indriyani (ndiniindriyani) : Sign In, Book Flight
 
-Tri Hesti Wahyuningsih (Trihstiwhyungsh) :
-
-Afiz Ekolaksono (afizekolaksono) :
-
-Ibnu Setyo Nugroho (ibnusetyon) : 
+Tri Hesti Wahyuningsih (Trihstiwhyungsh) : Search, Sign Out
