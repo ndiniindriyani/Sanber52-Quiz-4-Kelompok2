@@ -1,4 +1,4 @@
-# Sanber52-Quiz-4-Kelompok2
+# Sanber52-Quiz4-Kelompok2
 
 Pembagian Tugas Quiz 4 - Kelompok 2
 
