@@ -1,0 +1,7 @@
+fieldUsername: '//android.widget.EditText[@resource-id="com.example.myapplication:id/username"]'
+fieldPassword: '//android.widget.EditText[@resource-id="com.example.myapplication:id/password"]'
+SignInButton: '//android.widget.Button[@resource-id="com.example.myapplication:id/signIn"]'
+textEnterUsername : '//android.widget.TextView[@resource-id="com.example.myapplication:id/textView2"]'
+textEnterPassword : '//android.widget.TextView[@resource-id="com.example.myapplication:id/textView5"]'
+errorMessage1 : '//android.widget.Toast[@text="Invalid username/password"]'
+errorMessage2 : 'android.widget.Toast'

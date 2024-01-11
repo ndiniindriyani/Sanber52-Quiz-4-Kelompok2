@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.7 on win32)" generated="20240111 11:17:10.987" rpa="false" schemaversion="3">
+<suite id="s1" name="Sanber52-Quiz4-Kelompok2" source="C:\Users\AVOWS\Desktop\Sanber52-Quiz4-Kelompok2">
+<suite id="s1-s1" name="Suites" source="C:\Users\AVOWS\Desktop\Sanber52-Quiz4-Kelompok2\suites">
+<suite id="s1-s1-s1" name="Login" source="C:\Users\AVOWS\Desktop\Sanber52-Quiz4-Kelompok2\suites\login.robot">
+<test id="s1-s1-s1-t1" name="TC001 Verify Success Login with Input Valid Username and Password" line="17">
+<kw name="Run Keyword" library="BuiltIn" type="SETUP">
+<arg>Open NG Apps</arg>
+<doc>Executes the given keyword with the given arguments.</doc>
+<kw name="Open NG Apps" library="base">
+<kw name="Open Application" library="AppiumLibrary">
+<arg>remote_url=${REMOTE_URL}</arg>
+<arg>platformName=${PLATFORM_NAME}</arg>
+<arg>platformVersion=${PLATFORM_VERSION}</arg>
+<arg>deviceName=${DEVICE_NAME}</arg>
+<arg>appPackage=${APP_PACKAGE}</arg>
+<arg>appActivity=${APP_ACTIVITY}</arg>
+<doc>Opens a new application to given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | no     | alias             |</doc>
+<status status="PASS" starttime="20240111 11:17:11.827" endtime="20240111 11:17:22.715"/>
+</kw>
+<status status="PASS" starttime="20240111 11:17:11.826" endtime="20240111 11:17:22.716"/>
+</kw>
+<status status="PASS" starttime="20240111 11:17:11.825" endtime="20240111 11:17:22.716"/>
+</kw>
+<kw name="Verify Home Page" library="homePage">
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>${homePage}</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20240111 11:17:22.718" endtime="20240111 11:17:24.096"/>
+</kw>
+<kw name="Element Should Be Visible" library="AppiumLibrary">
+<arg>${bookButton}</arg>
+<doc>Verifies that element identified with locator is visible.</doc>
+<status status="PASS" starttime="20240111 11:17:24.096" endtime="20240111 11:17:24.304"/>
+</kw>
+<kw name="Element Should Be Visible" library="AppiumLibrary">
+<arg>${searchButton}</arg>
+<doc>Verifies that element identified with locator is visible.</doc>
+<status status="PASS" starttime="20240111 11:17:24.305" endtime="20240111 11:17:24.449"/>
+</kw>
+<kw name="Element Should Be Visible" library="AppiumLibrary">
+<arg>${checkInButton}</arg>
+<doc>Verifies that element identified with locator is visible.</doc>
+<status status="PASS" starttime="20240111 11:17:24.449" endtime="20240111 11:17:24.578"/>
+</kw>
+<status status="PASS" starttime="20240111 11:17:22.717" endtime="20240111 11:17:24.578"/>
+</kw>
+<kw name="Click Sign In Button On Home Page" library="homePage">
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>${loginButton}</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20240111 11:17:24.581" endtime="20240111 11:17:24.697"/>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<arg>${loginButton}</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20240111 11:17:24.700" level="INFO">Clicking element '//android.widget.Button[@resource-id="com.example.myapplication:id/login"]'.</msg>
+<status status="PASS" starttime="20240111 11:17:24.697" endtime="20240111 11:17:24.855"/>
+</kw>
+<status status="PASS" starttime="20240111 11:17:24.579" endtime="20240111 11:17:24.856"/>
+</kw>
+<kw name="Verify signIn Page" library="loginPage">
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>${fieldUsername}</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20240111 11:17:24.859" endtime="20240111 11:17:25.793"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>${fieldPassword}</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20240111 11:17:25.794" endtime="20240111 11:17:25.961"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>${SignInButton}</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20240111 11:17:25.962" endtime="20240111 11:17:26.119"/>
+</kw>
+<kw name="Page Should Contain Text" library="AppiumLibrary">
+<arg>${TEXT1}</arg>
+<doc>Verifies that current page contains `text`.</doc>
+<msg timestamp="20240111 11:17:26.243" level="INFO">Current page contains text 'Enter username'.</msg>
+<status status="PASS" starttime="20240111 11:17:26.120" endtime="20240111 11:17:26.244"/>
+</kw>
+<kw name="Page Should Contain Text" library="AppiumLibrary">
+<arg>${TEXT2}</arg>
+<doc>Verifies that current page contains `text`.</doc>
+<msg timestamp="20240111 11:17:26.350" level="INFO">Current page contains text 'Enter password'.</msg>
+<status status="PASS" starttime="20240111 11:17:26.244" endtime="20240111 11:17:26.351"/>
+</kw>
+<kw name="Element Should Be Enabled" library="AppiumLibrary">
+<arg>${SignInButton}</arg>
+<doc>Verifies that element identified with locator is enabled.</doc>
+<msg timestamp="20240111 11:17:26.490" level="INFO">Element '//android.widget.Button[@resource-id="com.example.myapplication:id/signIn"]' is enabled .</msg>
+<status status="PASS" starttime="20240111 11:17:26.351" endtime="20240111 11:17:26.492"/>
+</kw>
+<status status="PASS" starttime="20240111 11:17:24.857" endtime="20240111 11:17:26.492"/>
+</kw>
+<kw name="Input Username" library="loginPage">
+<arg>${VALID_USERNAME}</arg>
+<kw name="Input Text" library="AppiumLibrary">
+<arg>${fieldUsername}</arg>
+<arg>${username}</arg>
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<msg timestamp="20240111 11:17:26.505" level="INFO">Typing text 'support@ngendigital.com' into text field '//android.widget.EditText[@resource-id="com.example.myapplication:id/username"]'</msg>
+<status status="PASS" starttime="20240111 11:17:26.496" endtime="20240111 11:17:26.631"/>
+</kw>
+<status status="PASS" starttime="20240111 11:17:26.494" endtime="20240111 11:17:26.632"/>
+</kw>
+<kw name="Input Password" library="loginPage">
+<arg>${VALID_PASSWORD}</arg>
+<kw name="Input Text" library="AppiumLibrary">
+<arg>${fieldPassword}</arg>
+<arg>${password}</arg>
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<msg timestamp="20240111 11:17:26.638" level="INFO">Typing text 'abc123' into text field '//android.widget.EditText[@resource-id="com.example.myapplication:id/password"]'</msg>
+<status status="PASS" starttime="20240111 11:17:26.634" endtime="20240111 11:17:27.529"/>
+</kw>
+<status status="PASS" starttime="20240111 11:17:26.633" endtime="20240111 11:17:27.530"/>
+</kw>
+<kw name="Click Button SIgn In" library="loginPage">
+<kw name="Click Element" library="AppiumLibrary">
+<arg>${SignInButton}</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20240111 11:17:27.539" level="INFO">Clicking element '//android.widget.Button[@resource-id="com.example.myapplication:id/signIn"]'.</msg>
+<status status="PASS" starttime="20240111 11:17:27.533" endtime="20240111 11:17:28.188"/>
+</kw>
+<status status="PASS" starttime="20240111 11:17:27.531" endtime="20240111 11:17:28.189"/>
+</kw>
+<kw name="Close NG Apps" library="base" type="TEARDOWN">
+<kw name="Close Application" library="AppiumLibrary">
+<doc>Closes the current application and also close webdriver session.</doc>
+<status status="PASS" starttime="20240111 11:17:28.194" endtime="20240111 11:17:28.793"/>
+</kw>
+<status status="PASS" starttime="20240111 11:17:28.191" endtime="20240111 11:17:28.794"/>
+</kw>
+<status status="PASS" starttime="20240111 11:17:11.823" endtime="20240111 11:17:28.794"/>
+</test>
+<status status="PASS" starttime="20240111 11:17:11.124" endtime="20240111 11:17:28.797"/>
+</suite>
+<status status="PASS" starttime="20240111 11:17:11.110" endtime="20240111 11:17:28.801"/>
+</suite>
+<status status="PASS" starttime="20240111 11:17:11.004" endtime="20240111 11:17:28.804"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Sanber52-Quiz4-Kelompok2">Sanber52-Quiz4-Kelompok2</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Suites">Sanber52-Quiz4-Kelompok2.Suites</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1-s1" name="Login">Sanber52-Quiz4-Kelompok2.Suites.Login</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
