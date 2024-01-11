@@ -1,0 +1,7 @@
+homeIcon: '//android.widget.ImageView[@resource-id="com.example.myapplication:id/imageView4"]'
+homePage: '//android.widget.ImageView[@resource-id="com.example.myapplication:id/imageView"]'
+bookButton: '//android.widget.Button[@resource-id="com.example.myapplication:id/button5"]'
+searchButton: '//android.widget.Button[@resource-id="com.example.myapplication:id/button6" and @text="Search"]'
+checkInButton: '//android.widget.Button[@resource-id="com.example.myapplication:id/button6" and @text="Check in"]'
+loginButton: '//android.widget.Button[@resource-id="com.example.myapplication:id/login"]'
+userLogin: '//android.widget.TextView[@resource-id="com.example.myapplication:id/textView"]'
