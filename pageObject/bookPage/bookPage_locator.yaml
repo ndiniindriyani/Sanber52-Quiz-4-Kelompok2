@@ -1,0 +1,58 @@
+buttonBook        : '//android.widget.Button[@resource-id="com.example.myapplication:id/book"]'
+buttonSearch      : '//android.widget.Button[@resource-id="com.example.myapplication:id/search_flight"]'
+buttonCheckin     : '//android.widget.Button[@resource-id="com.example.myapplication:id/button6"]'
+
+buttonOneWay      : '//android.support.v7.app.ActionBar.Tab[@content-desc="One Way"]'
+buttonRoundTrip   : '//android.support.v7.app.ActionBar.Tab[@content-desc="Round Trip"]'
+
+# From City
+dropdownFrom      : '//android.widget.Spinner[@resource-id="com.example.myapplication:id/spinnerFrom"]'
+fromNewYork       : '//android.widget.TextView[@resource-id="android:id/text1" and @text="New York"]'
+fromChicago       : '//android.widget.TextView[@resource-id="android:id/text1" and @text="Chicago"]'
+fromToronto       : '//android.widget.TextView[@resource-id="android:id/text1" and @text="Toronto"]'
+
+#To City
+dropdownTo        : '//android.widget.Spinner[@resource-id="com.example.myapplication:id/spinnerTo"]'
+toLondon          : '//android.widget.TextView[@resource-id="android:id/text1" and @text="London"]'
+toParis           : '//android.widget.TextView[@resource-id="android:id/text1" and @text="Paris"]'
+toOttawa          : '//android.widget.TextView[@resource-id="android:id/text1" and @text="Ottawa"]'
+
+#Class
+dropdownClass     : '//android.widget.Spinner[@resource-id="com.example.myapplication:id/spinnerClass"]'
+economyClass      : '//android.widget.TextView[@resource-id="android:id/text1" and @text="Economy"]' 
+firstClass        : '//android.widget.TextView[@resource-id="android:id/text1" and @text="First"]'
+businessClass     : '//android.widget.TextView[@resource-id="android:id/text1" and @text="Business"]'
+
+#Start Date - End Date
+startDate         : '//android.widget.TextView[@resource-id="com.example.myapplication:id/textStartDate"]'
+calendar          : '//android.view.View[@resource-id="android:id/month_view"]'
+pickStartDate1    : '//android.view.View[@content-desc="03 August 2019"]'
+pickStartDate2    : '//android.view.View[@content-desc="04 August 2019"]'
+pickStartDate2    : '//android.view.View[@content-desc="05 August 2019"]'
+endDate           : '//android.widget.TextView[@resource-id="com.example.myapplication:id/textEndDate"]'
+pickEndDate1      : '//android.view.View[@content-desc="21 August 2019"]'
+pickEndDate2      : '//android.view.View[@content-desc="22 August 2019"]'
+buttonOk          : '//android.widget.Button[@resource-id="android:id/button1"]'
+buttonCancel      : '//android.widget.Button[@resource-id="android:id/button2"]'
+
+radioButtonFlight      : '//android.widget.RadioButton[@resource-id="com.example.myapplication:id/radioButtonFlight"]'
+radioButtonFlightHotel : '//android.widget.RadioButton[@resource-id="com.example.myapplication:id/radioButtonFlightHotel"]'
+checkBoxDay            : '//android.widget.CheckBox[@resource-id="com.example.myapplication:id/checkBoxDay"]'
+buttonBookFlight       : '//android.widget.Button[@resource-id="com.example.myapplication:id/book_flight"]'
+
+#Page Confirmation
+textFrom          : '//android.widget.TextView[@resource-id="com.example.myapplication:id/textFromCity"]'
+textTo            : '//android.widget.TextView[@resource-id="com.example.myapplication:id/textToCity"]'
+textConfirmation  : '//android.widget.TextView[@resource-id="com.example.myapplication:id/textView6"]'
+selectPrice1      : '//android.widget.Button[@resource-id="com.example.myapplication:id/price1"]'
+selectPrice2      : '//android.widget.Button[@resource-id="com.example.myapplication:id/price4"]'
+buttonConfirm     : '//android.widget.Button[@resource-id="com.example.myapplication:id/confirm_order"]'
+
+successBookFlight : '//android.widget.CheckedTextView[@resource-id="com.example.myapplication:id/checkedTextView"]'
+
+
+
+
+
+
+
