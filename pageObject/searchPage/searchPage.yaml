@@ -1,0 +1,15 @@
+# Beranda 
+button-Search : '//android.widget.Button[@resource-id="com.example.myapplication:id/search_flight"]'
+
+# Halaman Search Page
+textFlightNumber : '//android.widget.TextView[@resource-id="com.example.myapplication:id/enterFlight"]'
+fieldFlightNumber : '//android.widget.EditText[@resource-id="com.example.myapplication:id/flight_number"]'
+search-Button : '//android.widget.Button[@resource-id="com.example.myapplication:id/searchFlight"]'
+
+#Page Error Search Flight Number
+errorMessageSearch1 : '//android.widget.Toast[@text="Please enter valid Flight Number"]'
+errorMessageSearch2 : 'android.widget.Toast'
+
+#Page Success Search Flight Number
+torontoToParis : '//android.widget.TextView[@text="Toronto to Paris"]'
+flightNumber1 : '//android.widget.TextView[@text="DA 935"]'
