@@ -1,0 +1,1 @@
+signOutButton1 : '//android.widget.Button[@resource-id="com.example.myapplication:id/login"]'
