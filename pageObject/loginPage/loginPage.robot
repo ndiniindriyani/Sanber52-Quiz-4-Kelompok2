@@ -44,10 +44,19 @@ Click Button Sign In
 Verify Error Message
     Wait Until Page Contains         ${errorMessage1}
 
-
-
 Screenshoot Page Login
     Capture Page Screenshot
+
+Sign In With Valid Username and Password
+    [Arguments]    ${email}=${VALID_USERNAME}    ${password}=${VALID_PASSWORD}
+    Verify Home Page
+    Click Sign In Button On Home Page
+    Verify signIn Page
+    Input Username for Login      ${email}
+    Input Password for Login      ${password}
+    Click Button Sign In
+
+
 
 
 
